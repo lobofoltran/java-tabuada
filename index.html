@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tabuada</title>
+  </head>
+  <body>
+    <div id="div"></div>
+  <script>
+    fetch('http://localhost:8080/tabuada').then(response.text).then(document.getElementById("div").innerHtml = response);
+  </script>
+  </body>
+</html>
